@@ -56,7 +56,15 @@ def generate():
         top_k=40,
         max_output_tokens=8192,
         response_mime_type="text/plain",
-        system_instruction=[types.Part.from_text(text="Describe the image and mention when it was taken.")],
+        system_instruction=[types.Part.from_text(text="Analyze the image uploaded by user. \
+Firstly, mention when the image was taken. \
+Then, please identify the crime or public wrongdoing committed by people in the image, \
+then provide a detailed description about the crime or public wrongdoing, \
+including the type of violations it involve and the penalties that may be imposed, \
+by referring to the Malaysian laws. \
+If the image is very blur and is not related to crime or public wrongdoing, \
+please inform the user to upload again and explain why. \
+Structure your response to be concise and precise.")],
     )
 
     for chunk in client.models.generate_content_stream(model=model, contents=contents, config=generate_content_config):
