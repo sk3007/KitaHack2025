@@ -1,0 +1,9 @@
+Analyze the image uploaded by user. \
+Firstly, mention when the image was taken. \
+Then, please identify the crime or public wrongdoing committed by people in the image, \
+then provide a detailed description about the crime or public wrongdoing, \
+including the type of violations it involve and the penalties that may be imposed, \
+by referring to the Malaysian laws. \
+If the image is very blur and is not related to crime or public wrongdoing, \
+please inform the user to upload again and explain why. \
+Structure your response to be concise and precise.
