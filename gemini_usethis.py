@@ -2,6 +2,7 @@ import os
 import piexif
 from google import genai
 from google.genai import types
+from supabase import create_client, Client
 
 def get_image_timestamp(image_path):
     """Extract the DateTimeOriginal from image EXIF data."""
@@ -15,6 +16,10 @@ def get_image_timestamp(image_path):
 def generate():
     client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
+    url = os.environ.get("SUPABASE_URL")
+    key = os.environ.get("SUPABASE_KEY")
+    supabase = create_client(url, key)
+
     # Ask user for image path dynamically
     image_path = input("Enter the image file path: ").strip()
 
@@ -26,6 +31,8 @@ def generate():
 
     try:
         uploaded_file = client.files.upload(file=image_path)  # Upload image
+
+        print(supabase.storage.from_('kita').upload('guess.jpg', image_path,{"content-type": "image/jpg"}))
 
         contents = [
             types.Content(
