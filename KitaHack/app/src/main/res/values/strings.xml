@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">KitaReport</string>
+    <string name="title_activity_sign_up_page">SignUpPage</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_discover">Discover</string>
+    <string name="title_activity_login_firebase">LoginFirebase</string>
+    <string name="title_activity_gemini_chat_screen">GeminiChatScreen</string>
+</resources>

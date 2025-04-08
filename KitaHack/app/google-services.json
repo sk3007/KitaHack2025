@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "452138449353",
+    "project_id": "kitahack-201c7",
+    "storage_bucket": "kitahack-201c7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452138449353:android:7af45beafac9ecd2f69018",
+        "android_client_info": {
+          "package_name": "com.fit2081.kitahack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC5f7iDqQLcZb8DTEKPAMsrlyMhUPBV84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
