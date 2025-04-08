@@ -16,9 +16,8 @@ Follow these steps to get a local copy up and running.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[YourUsername]/[YourRepositoryName].git
+    git clone https://github.com/sk3007/KitaHack2025.git
     ```
-    *(Replace `[YourUsername]/[YourRepositoryName]` with your actual GitHub details)*.
     Alternatively, you can download the project as a ZIP file from GitHub and extract it.
 
 2.  **Open the project in Android Studio:**
