@@ -8,7 +8,7 @@ Before you begin, ensure you have the following installed:
 
 * **Android Studio:** The official IDE for Android development. You can download it from [here](https://developer.android.com/studio). (Latest stable version recommended).
 * **Android SDK:** Make sure you have the necessary Android SDK Platforms installed through the Android Studio SDK Manager. This project requires SDK version **[30]** or higher. *(Please update this value to match your project's actual minSdkVersion)*.
-
+* ""Android AGP:""Potential AGP Incompatibility- If you encounter an error about incompatible Android Gradle Plugin (e.g., AGP 8.9.1), try downgrading the AGP version in your project's top-level build.gradle file to the latest supported version.
 
 ## Getting Started
 
