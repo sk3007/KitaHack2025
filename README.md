@@ -25,7 +25,6 @@ Follow these steps to get a local copy up and running.
     * Select `File` > `Open...` (or `Open an Existing Project` from the welcome screen).
     * Navigate to the directory where you cloned or extracted the project.
     * Android Studio will automatically detect it as a Gradle project and start syncing. This might take a few minutes depending on your internet connection and system specs. Wait for the Gradle sync to complete successfully.
-    * 
 
 ## Running the Application
 
