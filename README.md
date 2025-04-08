@@ -1,4 +1,4 @@
-# KitaHack2025
+# KitaHack2025 - KitaReport 📸
 
 An application that allows users to log in via phone number and OTP to report an incident to Malaysian authorities by submitting an image captured using the application.
 
