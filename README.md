@@ -20,7 +20,7 @@ Follow these steps to get a local copy up and running.
     ```
     Alternatively, you can download the project as a ZIP file from GitHub and extract it.
 
-2.  **Open the project in Android Studio:** (Open the KitaReport folder in Android Studio)
+2.  **Open the project in Android Studio:** (Open the KitaHack folder in Android Studio)
     * Launch Android Studio.
     * Select `File` > `Open...` (or `Open an Existing Project` from the welcome screen).
     * Navigate to the directory where you cloned or extracted the project.
